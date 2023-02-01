@@ -30,6 +30,9 @@ const query = process.argv.slice(2).join(' ');
         if (block.type === 'page') {
           parents.push(block.properties.title[0]);
         }
+      } else if (parent_table === 'team') {
+        block = json.recordMap.team[parent_id].value;
+        parents.push([].concat(block.name));
       }
     } while (true);
     return {
