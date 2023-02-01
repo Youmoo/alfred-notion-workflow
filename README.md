@@ -2,7 +2,7 @@
 
 Use this workflow to search your notion pages.
 
-Click [here](.) to download the latest release.
+Click [here](https://github.com/Youmoo/alfred-notion-workflow/releases) to download the latest release.
 
 ![](src/example.png)
 
