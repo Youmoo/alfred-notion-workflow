@@ -15,6 +15,7 @@ Click [here](.) to download the latest release.
 | NOTION_SPACE_ID | 0ba16d6a-87...               | Your workspace id. You can get it the same way you get notion cookie                                                           |
 
 ### Configuration Example
+
 ![](src/configuration.png)
 
 ## Actions
@@ -23,3 +24,5 @@ From the search result:
 
 - Press `Enter` to open the page in your default browser
 - Press `CMD + Enter` to open the page in your Notion app
+- Press `CMD + C` to copy the link of the page
+- Press `CMD + L` to display the current data (for debugging purpose)
